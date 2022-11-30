@@ -1,0 +1,13 @@
+.container{
+    padding: 15px;
+    transition: 0.3s;
+}
+.container:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.projectName{
+    font-size: 20px;
+}

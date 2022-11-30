@@ -1,0 +1,72 @@
+.container{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.modalTitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    color: #000;
+}
+.commentsWrapper{
+    display: flex;
+    padding-left: 10px;
+    border-left: 2px solid rgb(0, 123, 255);
+    margin-bottom: 7px;
+    flex-direction: column;
+}
+.comment{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.author{
+    font-weight: bold;
+}
+.text{
+    font-weight: 500;
+}
+.reply{
+    color: rgb(0, 123, 255);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0px 10px;
+    background-color: rgba(0, 123, 255, 0.077);
+    border-radius: 30px;
+}
+.replyActive{
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 123, 255);
+    color: #fff;
+}
+.input{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.textarea{
+    width: 400px;
+    height: 100px;
+}
+.btn{
+    outline: none;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: rgb(0, 123, 255);
+    font-weight: bold;
+    background-color: rgba(0, 123, 255, 0.077);
+    cursor: pointer;
+    transition: 0.5s;
+    float: right;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 123, 255);
+    color: #fff
+}
